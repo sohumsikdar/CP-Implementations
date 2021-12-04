@@ -1,2 +1,2 @@
 # CP_Implementations
-Common Data Structures and Algorithms Implementations
+Implementations of Common Data Structures and Algorithms for CP
