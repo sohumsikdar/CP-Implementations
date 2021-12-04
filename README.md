@@ -6,8 +6,7 @@ Implementations of Common Data Structures and Algorithms for CP
     O(α(n)) queries. α(n) = 4 for all n < 1e600
 
 ## Shortest Paths
-    1) Dijktra: Standard SSSP implmentaion using STL set
-       O(Elog(V) + Vlog(E)) time
+    1) Dijktra: Standard SSSP implmentaion using STL set. O(Elog(V) + Vlog(E)) 
     2) Bellman Ford: Another SSSP but works for neg edges and detects Neg Cycles
     3) Floyd Warshal: All source shortest path, cubic time.
 
