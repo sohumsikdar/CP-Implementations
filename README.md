@@ -2,7 +2,7 @@
 Implementations of Common Data Structures and Algorithms for CP
 <br><br>
 ## DSU
-    Disoint set implemented using both path compression and Union by Rank/size
+    Disjoint set implemented using both path compression and Union by Rank/size
     O(α(n)) queries. α(n) = 4 for all n < 1e600
 
 ## Shortest Paths
