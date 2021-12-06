@@ -55,8 +55,3 @@ void getCutVert(ll node, ll parent){
         cutVert.insert(node);
     } 
 }
-
-
-int main() {
-    return 0;
-}
