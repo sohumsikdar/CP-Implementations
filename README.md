@@ -18,3 +18,6 @@ Implementations of Common Data Structures and Algorithms for CP
 
 ## Kruskal
     Implement a DSU, returns the MST Weight and MST in O(ElogE) time
+    
+## RMQ - Sparse Table
+    Static range min/max/gcd queries in O(1) with O(nlogn) preprocessing
