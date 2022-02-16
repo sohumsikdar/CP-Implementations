@@ -14,7 +14,7 @@ Implementations of Common Data Structures and Algorithms for CP
     LCA queries in a rooted tree in O(log(n)) time with O(nlog(n)) pre-processing
 
 ## kahn
-    Topological sort runs on O(V + E)
+    Topological sort runs in O(V + E)
 
 ## Kruskal
     Implement a DSU, returns the MST Weight and MST in O(ElogE) time
