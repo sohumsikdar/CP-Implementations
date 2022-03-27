@@ -3,12 +3,12 @@ using namespace std;
 
 class DSU {
     public:
-    long long nodes;
-    long long connectedComp;
-    vector<long long> parent;
-    vector<long long> size;
+    int nodes;
+    int connectedComp;
+    vector<int> parent;
+    vector<int> size;
 
-    DSU(long long n) {
+    DSU(int n) {
         nodes = n;
         connectedComp = n;
         parent.resize(n + 1);
@@ -22,12 +22,12 @@ class DSU {
         }
     }
 
-    long long find(long long v) {
+    int find(int v) {
         if(parent[v] == v) return v;
         return parent[v] = find(parent[v]);
     }
 
-    void merge(long long v, long long u) {
+    void merge(int v, int u) {
         v = find(v);
         u = find(u);
         if(v != u) {
@@ -38,7 +38,7 @@ class DSU {
         } 
     }
 
-    long long setSize(long long v) {
+    int setSize(int v) {
         v = find(v);
         return size[v];
     }
